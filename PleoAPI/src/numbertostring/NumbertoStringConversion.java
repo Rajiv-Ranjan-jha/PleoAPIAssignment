@@ -12,8 +12,12 @@ public class NumbertoStringConversion {
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String NumbertoStringHTML(@QueryParam("number") String number) {
+		Double numParsed = Double.parseDouble(number);
+		/* Converting into required formate and rounding off the last two digit post decimal */
+		String result = String.format("%,.2f", numParsed);
+		String resource = "<h1> Here is the string Formate of number "+result+" </h1>";
+		return resource;
 		
-		return number;
 	}
 
 }
