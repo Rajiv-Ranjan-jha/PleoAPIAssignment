@@ -22,7 +22,10 @@ I Replace Comma with space to achieve the required format.
 <h4>Note :-</h4> As this is a testing assignment, I am not spending more time in improving it however I am listing few things can be done to improve it and spending more time on writing a framework that should take care of all the cases/Assumption etc.,
 
 Adding Authentication Layer to the API. 
+
 Handling Special Character and unwanted number in input.
+
 Return the Value in XML/JSON.
+
 Here i am returning in h1-tag so that it should look like an application
 
